@@ -1,0 +1,121 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style/all.min.css">
+    <!--    <link rel="stylesheet" href="style/materialize.min.css">-->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/hover-min.css">
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/headerStyle.css">
+    <link rel="stylesheet" href="style/createAccount.css">
+
+    <title>Create  Account</title>
+</head>
+<body>
+<section class="header mb-5">
+    <!-- start in navbar style-->
+    <nav class="navbar navbar-expand-lg navbar-light seconed-nav">
+        <a class="navbar-brand ml-sm-5 mr-5 logo-life" href="index.html"><img src="image/logo.png" alt="header image">
+        </a>
+        <button class="navbar-toggler mr-sm-5 my-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-5 left-menu">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" tabindex="-1" aria-disabled="true">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#doctors" tabindex="-1" aria-disabled="true">Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#price" tabindex="-1" aria-disabled="true">Price</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!--End navbar style-->
+</section>
+<main>
+<div class="container pt-5">
+    <div class="myCard">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="myLeftCtn">
+
+                    <form class="myForm text-center needs-validation" onsubmit="return validateForm(this)" novalidate>
+                        <header>Create new account</header>
+                        <div class="form-group">
+                            <i class="fas fa-user"></i>
+                            <input class="myInput" type="text" placeholder="Username" id="username" required>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <i class="fas fa-envelope"></i>
+                            <input class="myInput" placeholder="Email" type="text" id="email" required>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <i class="fas fa-lock"></i>
+                            <input class="myInput" type="password" id="password" placeholder="Password" required>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label><input id="check_1" name="check_1"  type="checkbox" required><small> I read and agree to Terms & Conditions</small></input>
+                                <div class="invalid-feedback">You must check the box.</div></label>
+                        </div>
+
+                        <input type="submit" class="butt" value="CREATE ACCOUNT">
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="myRightCtn">
+                    <div class="box"><header>Hello World!</header>
+
+                        <p style="color: #fff">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam.</p>
+                        <input type="button" class="butt_out" value="Learn More"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<div class="clearFix"></div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<!--<script src="js/materialize.min.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/createAccount.js"></script>
+</body>
+</html>

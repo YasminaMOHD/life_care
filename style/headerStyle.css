@@ -1,0 +1,45 @@
+.seconed-nav{color: #fff;}
+.logo-life img{width: 200px;display: inline-block}
+.left-menu{padding-left: 300px}
+.left-menu li a{font-size: 18px;margin-right: 40px;}
+
+.left-menu li a:hover {
+    animation: neon 2s infinite linear;
+}
+.left-menu li a:focus,.left-menu li:focus{outline: none}
+
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: none;
+    }
+    50% {
+        text-shadow: 2px 2px 10px #0ff, -2px -2px 10px #ff0;
+    }
+}
+
+
+
+/*Responsive*/
+@media(max-width: 1358px){
+    .left-menu li a{font-size: 18px;margin-right: 30px;}
+    .left-menu{padding-left: 220px}
+}
+@media(max-width: 1288px){
+    .left-menu li a{font-size: 16px;margin-right: 30px;}
+    .left-menu{padding-left: 200px}
+}
+@media(max-width: 1160px){
+    .left-menu li a{font-size: 16px;margin-right: 30px;}
+    .left-menu{padding-left: 150px}
+}
+@media(max-width: 1112px){
+    .left-menu li a{font-size: 16px;margin-right: 30px;}
+    .left-menu{padding-left: 20px}
+}
+@media (min-width: 992px) {
+    .seconed-nav{height: 100px}
+}
+@media (max-width: 385px) {
+    .logo-life img{width: 150px;display: inline-block}
+}
